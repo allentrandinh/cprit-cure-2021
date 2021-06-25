@@ -1,0 +1,7 @@
+Amhr2YFP.avi is the original video showing the Mullerian duct regression
+
+python-scripts folder:
+1. extracting_frame extracts each frame of the video to frame/ folder
+2. img_processing preprocess the image which includes converting to grayscale, applying binary threshold, saving processed image to frame/processed/
+3. edge_detecting creates an interactive window where left/right click will record the position of left and right end point (manual identification of coordinates). Coordinates of clicked point and a circle around that position will be shown and image will be save to frame/markedpoint
+4. edge_detecting also creates an interactive window but with greater control, details are commented in file

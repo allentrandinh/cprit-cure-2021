@@ -1,6 +1,6 @@
 import cv2 as cv
 '''
-Upon starting, there will be two window
+Upon starting, there will be two windows
 1. Showing the original image + track bar to change position of x and y
 2. 
 '''
