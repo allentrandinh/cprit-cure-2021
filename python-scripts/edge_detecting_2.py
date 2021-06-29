@@ -143,5 +143,5 @@ def manual_determination(start,end,mode='a'):
         for i in range(0,len(right_coordinates)):
             f.write(f"{left_coordinates[i][0]}\t{left_coordinates[i][1]}\t{right_coordinates[i][0]}\t{right_coordinates[i][1]}\n")
 
-manual_determination(4,5,'w')
+# manual_determination(41,53,'a')
 
