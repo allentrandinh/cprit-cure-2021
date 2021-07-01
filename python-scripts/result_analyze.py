@@ -56,10 +56,11 @@ temp = np.copy(data['time'][1:])
 # print(temp)
 processed_data['end_time']=temp
 
-plt.plot(processed_data['end_time'],processed_data['left_rate'])
+# plt.plot(processed_data['end_time'],processed_data['left_rate'])
+plt.scatter(processed_data['end_time']/3600,processed_data['left_rate'],color='red')
 #
-# plt.scatter(processed_data['end_time'],processed_data['left_rate'],color='red')
-# plt.scatter(processed_data['end_time'],processed_data['right_rate'],color='blue')
+# plt.scatter(processed_data['end_time']/3600,processed_data['left_rate'],color='red')
+plt.scatter(processed_data['end_time']/3600,processed_data['right_rate'],color='blue')
 
 plt.show()
 
